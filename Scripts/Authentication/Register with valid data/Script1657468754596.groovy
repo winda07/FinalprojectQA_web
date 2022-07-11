@@ -37,11 +37,11 @@ WebUI.setText(findTestObject('Page register/input_phone_number2'), '948374347342
 
 WebUI.click(findTestObject('Page register/input_password2'))
 
-WebUI.setText(findTestObject('Page register/input_password2'), password)
+WebUI.setEncryptedText(findTestObject('Page register/input_password2'), password)
 
 WebUI.click(findTestObject('Page register/input_confirm_password2'))
 
-WebUI.setText(findTestObject('Page register/input_confirm_password2'), confirm_password)
+WebUI.setEncryptedText(findTestObject('Page register/input_confirm_password2'), confirm_password)
 
 WebUI.click(findTestObject('Page register/input_address2'))
 
